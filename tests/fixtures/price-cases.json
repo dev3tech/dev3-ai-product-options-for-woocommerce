@@ -1,0 +1,7646 @@
+[
+ {
+  "name": "flat text filled",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 3,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Hi"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "flat text empty",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 3,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": ""
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "flat textarea qty 3",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "textarea",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Note"
+  },
+  "base": 20.0,
+  "qty": 3,
+  "expect": {
+   "unit": 2.5,
+   "once": 0.0,
+   "total": 67.5
+  }
+ },
+ {
+  "name": "percent text",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": 10,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 45,
+  "qty": 1,
+  "expect": {
+   "unit": 4.5,
+   "once": 0.0,
+   "total": 49.5
+  }
+ },
+ {
+  "name": "percent negative",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": -15,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 40,
+  "qty": 1,
+  "expect": {
+   "unit": -6.0,
+   "once": 0.0,
+   "total": 34.0
+  }
+ },
+ {
+  "name": "flat checkbox checked",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4.99,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.99,
+   "once": 0.0,
+   "total": 24.99
+  }
+ },
+ {
+  "name": "flat checkbox unchecked",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4.99,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": false
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "toggle percent",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "toggle",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": 12.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 80,
+  "qty": 1,
+  "expect": {
+   "unit": 10.0,
+   "once": 0.0,
+   "total": 90.0
+  }
+ },
+ {
+  "name": "date flat",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "date",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 7,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "2026-12-24"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "date empty",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "date",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 7,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": ""
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "color flat",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "color",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 1.25,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "#ff0000"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.25,
+   "once": 0.0,
+   "total": 21.25
+  }
+ },
+ {
+  "name": "hidden flat always",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "hidden",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "setup",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "setup"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "hidden empty default",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "hidden",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": ""
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "email flat",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "email",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 0.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "a@b.co"
+  },
+  "base": 20.0,
+  "qty": 4,
+  "expect": {
+   "unit": 0.5,
+   "once": 0.0,
+   "total": 82.0
+  }
+ },
+ {
+  "name": "number flat when set",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 0
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 25.0
+  }
+ },
+ {
+  "name": "number flat when null",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": null
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "per char basic",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "HELLO"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.5,
+   "once": 0.0,
+   "total": 22.5
+  }
+ },
+ {
+  "name": "per char spaces ignored",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "A B C"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "per char spaces counted",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": true,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "A B C"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 25.0
+  }
+ },
+ {
+  "name": "per char free 10 under",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 10,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abcdefgh"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "per char free 10 over",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 10,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abcdefghijklmn"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 8.0,
+   "once": 0.0,
+   "total": 28.0
+  }
+ },
+ {
+  "name": "per char unicode",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Zoë 💙"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.0,
+   "once": 0.0,
+   "total": 24.0
+  }
+ },
+ {
+  "name": "per char textarea newlines",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "textarea",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "ab\ncd\n\nef"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.6,
+   "once": 0.0,
+   "total": 20.6
+  }
+ },
+ {
+  "name": "per char qty 2",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.25,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Engrave"
+  },
+  "base": 20.0,
+  "qty": 2,
+  "expect": {
+   "unit": 1.75,
+   "once": 0.0,
+   "total": 43.5
+  }
+ },
+ {
+  "name": "per char cents",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.333,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.999,
+   "once": 0.0,
+   "total": 21.0
+  }
+ },
+ {
+  "name": "per unit number",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": 1.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 4
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 6.0,
+   "once": 0.0,
+   "total": 26.0
+  }
+ },
+ {
+  "name": "per unit decimal",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 2.75
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.5,
+   "once": 0.0,
+   "total": 25.5
+  }
+ },
+ {
+  "name": "per unit range",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "range",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": 0.2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "min": 0,
+    "max": 100
+   }
+  ],
+  "values": {
+   "fa": 35
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "per unit zero",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": 3,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 0
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "per unit negative price",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": -1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 3
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": -3.0,
+   "once": 0.0,
+   "total": 17.0
+  }
+ },
+ {
+  "name": "per unit file count",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "file",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_unit",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": [
+    {
+     "token": "a",
+     "name": "a.png"
+    },
+    {
+     "token": "b",
+     "name": "b.png"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.0,
+   "once": 0.0,
+   "total": 24.0
+  }
+ },
+ {
+  "name": "flat file",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "file",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 6,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": [
+    {
+     "token": "a",
+     "name": "a.png"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 6.0,
+   "once": 0.0,
+   "total": 26.0
+  }
+ },
+ {
+  "name": "tiers qty 1",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 1,
+      "price": 5
+     },
+     {
+      "min": 10,
+      "price": 4
+     },
+     {
+      "min": 50,
+      "price": 3
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 25.0
+  }
+ },
+ {
+  "name": "tiers qty 9",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 1,
+      "price": 5
+     },
+     {
+      "min": 10,
+      "price": 4
+     },
+     {
+      "min": 50,
+      "price": 3
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 9,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 225.0
+  }
+ },
+ {
+  "name": "tiers qty 10",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 1,
+      "price": 5
+     },
+     {
+      "min": 10,
+      "price": 4
+     },
+     {
+      "min": 50,
+      "price": 3
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 10,
+  "expect": {
+   "unit": 4.0,
+   "once": 0.0,
+   "total": 240.0
+  }
+ },
+ {
+  "name": "tiers qty 75",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 1,
+      "price": 5
+     },
+     {
+      "min": 10,
+      "price": 4
+     },
+     {
+      "min": 50,
+      "price": 3
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 75,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 1725.0
+  }
+ },
+ {
+  "name": "tiers below first",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 5,
+      "price": 2
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 3,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 60.0
+  }
+ },
+ {
+  "name": "tiers unchecked",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "qty_tiers",
+    "price": 0,
+    "formula": "",
+    "tiers": [
+     {
+      "min": 1,
+      "price": 5
+     },
+     {
+      "min": 10,
+      "price": 4
+     },
+     {
+      "min": 50,
+      "price": 3
+     }
+    ],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": false
+  },
+  "base": 20.0,
+  "qty": 20,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 400.0
+  }
+ },
+ {
+  "name": "select free",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "os"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "select priced",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "ol"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 6.5,
+   "once": 0.0,
+   "total": 26.5
+  }
+ },
+ {
+  "name": "select none",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": ""
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "radio percent option",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "radio",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Gold",
+      "value": "gold",
+      "price": 20,
+      "price_type": "percent",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Silver",
+      "value": "silver",
+      "price": 5,
+      "price_type": "percent",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "oa"
+  },
+  "base": 150,
+  "qty": 1,
+  "expect": {
+   "unit": 30.0,
+   "once": 0.0,
+   "total": 180.0
+  }
+ },
+ {
+  "name": "swatch flat",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "color_swatch",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Red",
+      "value": "red",
+      "price": 1,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Blue",
+      "value": "blue",
+      "price": 2,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "ob"
+  },
+  "base": 20.0,
+  "qty": 5,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 110.0
+  }
+ },
+ {
+  "name": "image picker",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "image_picker",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Classic",
+      "value": "classic",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Modern",
+      "value": "modern",
+      "price": 12,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "ob"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 12.0,
+   "once": 0.0,
+   "total": 32.0
+  }
+ },
+ {
+  "name": "checkboxes sum",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkboxes",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Wrap",
+      "value": "wrap",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Card",
+      "value": "card",
+      "price": 1.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "oc",
+      "label": "Box",
+      "value": "box",
+      "price": 4,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": [
+    "oa",
+    "oc"
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "checkboxes all",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkboxes",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Wrap",
+      "value": "wrap",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Card",
+      "value": "card",
+      "price": 1.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "oc",
+      "label": "Box",
+      "value": "box",
+      "price": 4,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": [
+    "oa",
+    "ob",
+    "oc"
+   ]
+  },
+  "base": 20.0,
+  "qty": 2,
+  "expect": {
+   "unit": 8.5,
+   "once": 0.0,
+   "total": 57.0
+  }
+ },
+ {
+  "name": "checkboxes mixed percent",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkboxes",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Insure",
+      "value": "insure",
+      "price": 10,
+      "price_type": "percent",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "Card",
+      "value": "card",
+      "price": 2,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": [
+    "oa",
+    "ob"
+   ]
+  },
+  "base": 60,
+  "qty": 1,
+  "expect": {
+   "unit": 8.0,
+   "once": 0.0,
+   "total": 68.0
+  }
+ },
+ {
+  "name": "checkboxes empty",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkboxes",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Wrap",
+      "value": "wrap",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": []
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "discount option floors at zero",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Voucher",
+      "value": "voucher",
+      "price": -50,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "oa"
+  },
+  "base": 20,
+  "qty": 1,
+  "expect": {
+   "unit": -50.0,
+   "once": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "name": "choice plus formula",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{qty} * 0.5",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "om"
+  },
+  "base": 20.0,
+  "qty": 4,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 100.0
+  }
+ },
+ {
+  "name": "once flat",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 15,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Logo"
+  },
+  "base": 20.0,
+  "qty": 10,
+  "expect": {
+   "unit": 0.0,
+   "once": 15.0,
+   "total": 215.0
+  }
+ },
+ {
+  "name": "once and item",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 15,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fb",
+    "type": "checkbox",
+    "key": "fb",
+    "label": "FB",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Logo",
+   "fb": true
+  },
+  "base": 20.0,
+  "qty": 3,
+  "expect": {
+   "unit": 2.0,
+   "once": 15.0,
+   "total": 81.0
+  }
+ },
+ {
+  "name": "once percent",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": 50,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 30,
+  "qty": 4,
+  "expect": {
+   "unit": 0.0,
+   "once": 15.0,
+   "total": 135.0
+  }
+ },
+ {
+  "name": "once option",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "select",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "Setup",
+      "value": "setup",
+      "price": 25,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   }
+  ],
+  "values": {
+   "fa": "oa"
+  },
+  "base": 20.0,
+  "qty": 7,
+  "expect": {
+   "unit": 0.0,
+   "once": 25.0,
+   "total": 165.0
+  }
+ },
+ {
+  "name": "formula letters over 10 (short)",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "max(0, {len} - 10) * 2",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "HELLO"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "formula letters over 10 (long)",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "max(0, {len} - 10) * 2",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "Happy Birthday Anna"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 14.0,
+   "once": 0.0,
+   "total": 34.0
+  }
+ },
+ {
+  "name": "formula precedence",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "2 + 3 * 4",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 14.0,
+   "once": 0.0,
+   "total": 34.0
+  }
+ },
+ {
+  "name": "formula parentheses",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "(2 + 3) * 4",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 20.0,
+   "once": 0.0,
+   "total": 40.0
+  }
+ },
+ {
+  "name": "formula power right assoc",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "2 ^ 3 ^ 2 / 100",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.12,
+   "once": 0.0,
+   "total": 25.12
+  }
+ },
+ {
+  "name": "formula power",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "2 ^ 3 + 1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 9.0,
+   "once": 0.0,
+   "total": 29.0
+  }
+ },
+ {
+  "name": "formula unary minus power",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "10 - -2 ^ 2",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 14.0,
+   "once": 0.0,
+   "total": 34.0
+  }
+ },
+ {
+  "name": "formula division",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{price} / 4",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 19,
+  "qty": 1,
+  "expect": {
+   "unit": 4.75,
+   "once": 0.0,
+   "total": 23.75
+  }
+ },
+ {
+  "name": "formula division by zero",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "5 / 0 + 1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.0,
+   "once": 0.0,
+   "total": 21.0
+  }
+ },
+ {
+  "name": "formula modulo",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "17 % 5",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "formula if true",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "if({len} > 5, 10, 2)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abcdefg"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 10.0,
+   "once": 0.0,
+   "total": 30.0
+  }
+ },
+ {
+  "name": "formula if false",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "if({len} > 5, 10, 2)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "formula round 2",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "round({price} * 0.333, 2)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 10,
+  "qty": 1,
+  "expect": {
+   "unit": 3.33,
+   "once": 0.0,
+   "total": 13.33
+  }
+ },
+ {
+  "name": "formula round half up",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "round(2.5)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "formula round negative half",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "round(-2.5) + 10",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "formula ceil words",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "ceil({words} / 3) * 4",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "one two three four five"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 8.0,
+   "once": 0.0,
+   "total": 28.0
+  }
+ },
+ {
+  "name": "formula floor",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "floor({value} / 10) * 3",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 47
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 12.0,
+   "once": 0.0,
+   "total": 32.0
+  }
+ },
+ {
+  "name": "formula area",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{value} * {price} * 0.01",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 120
+  },
+  "base": 30,
+  "qty": 1,
+  "expect": {
+   "unit": 36.0,
+   "once": 0.0,
+   "total": 66.0
+  }
+ },
+ {
+  "name": "formula sqrt",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "sqrt({value}) * 2",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 16
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 8.0,
+   "once": 0.0,
+   "total": 28.0
+  }
+ },
+ {
+  "name": "formula sqrt negative",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "sqrt(-4) + 1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.0,
+   "once": 0.0,
+   "total": 21.0
+  }
+ },
+ {
+  "name": "formula clamp",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "clamp({value} * 2, 5, 30)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 40
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 30.0,
+   "once": 0.0,
+   "total": 50.0
+  }
+ },
+ {
+  "name": "formula min max",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "min(10, max(2, {len}))",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abcdef"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 6.0,
+   "once": 0.0,
+   "total": 26.0
+  }
+ },
+ {
+  "name": "formula and or",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "({len} > 2 && {len} < 5) * 7 + ({len} == 0 || {len} > 9) * 3",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "formula not",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "!0 * 4 + !5 * 9",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.0,
+   "once": 0.0,
+   "total": 24.0
+  }
+ },
+ {
+  "name": "formula lines",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "textarea",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{lines} * 1.5",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "a\nb\nc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.5,
+   "once": 0.0,
+   "total": 24.5
+  }
+ },
+ {
+  "name": "formula qty discount",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "if({qty} >= 10, 1, 2)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 12,
+  "expect": {
+   "unit": 1.0,
+   "once": 0.0,
+   "total": 252.0
+  }
+ },
+ {
+  "name": "formula comparison chain",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "({value} >= 5) + ({value} <= 5) + ({value} != 5)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 5
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "formula pow fn",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "pow(1.1, 2) * 100",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 121.0,
+   "once": 0.0,
+   "total": 141.0
+  }
+ },
+ {
+  "name": "formula abs",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "number",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "abs({value} - 10)",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": 3
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "formula invalid gives zero",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "max(0, {len} -",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "formula unknown var zero",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{nope} * 5 + 1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "abc"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.0,
+   "once": 0.0,
+   "total": 21.0
+  }
+ },
+ {
+  "name": "formula scientific",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "1.5e1 + .5",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 15.5,
+   "once": 0.0,
+   "total": 35.5
+  }
+ },
+ {
+  "name": "formula checkbox value",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{value} * 3 + {count}",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.0,
+   "once": 0.0,
+   "total": 24.0
+  }
+ },
+ {
+  "name": "formula empty field skipped",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "100",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": ""
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "formula field refs",
+  "fields": [
+   {
+    "id": "fw",
+    "type": "number",
+    "key": "width",
+    "label": "FW",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fh",
+    "type": "number",
+    "key": "height",
+    "label": "FH",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fa",
+    "type": "hidden",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "1",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{width} * {height} * 0.05",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fw": 30,
+   "fh": 40,
+   "fa": "1"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 60.0,
+   "once": 0.0,
+   "total": 80.0
+  }
+ },
+ {
+  "name": "formula field ref missing value",
+  "fields": [
+   {
+    "id": "fw",
+    "type": "number",
+    "key": "width",
+    "label": "FW",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fh",
+    "type": "number",
+    "key": "height",
+    "label": "FH",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fa",
+    "type": "hidden",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "1",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{width} * {height} * 0.05",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fw": 30,
+   "fh": null,
+   "fa": "1"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "formula ref len",
+  "fields": [
+   {
+    "id": "fn",
+    "type": "text",
+    "key": "name",
+    "label": "FN",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{name.len} * 0.2",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fn": "Alexandra",
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.8,
+   "once": 0.0,
+   "total": 21.8
+  }
+ },
+ {
+  "name": "formula ref count",
+  "fields": [
+   {
+    "id": "fx",
+    "type": "checkboxes",
+    "key": "extras",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "A",
+      "value": "a",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "B",
+      "value": "b",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "oc",
+      "label": "C",
+      "value": "c",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{extras.count} * 1.25",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fx": [
+    "oa",
+    "oc"
+   ],
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.5,
+   "once": 0.0,
+   "total": 22.5
+  }
+ },
+ {
+  "name": "formula ref numeric option",
+  "fields": [
+   {
+    "id": "fp",
+    "type": "select",
+    "key": "pack",
+    "label": "FP",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "o6",
+      "label": "6 pack",
+      "value": "6",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "o12",
+      "label": "12 pack",
+      "value": "12",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{pack} * 0.75",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fp": "o12",
+   "fa": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 9.0,
+   "once": 0.0,
+   "total": 29.0
+  }
+ },
+ {
+  "name": "formula ref hidden by condition",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "message",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fa",
+    "type": "hidden",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "1",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{message.len} * 0.1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fm": "Hidden text",
+   "fa": "1"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "cond shown",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "message",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": true,
+   "fm": "Love you"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.7,
+   "once": 0.0,
+   "total": 22.7
+  }
+ },
+ {
+  "name": "cond hidden ignores value",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "message",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fm": "Love you"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "cond hide action",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "fm",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "hide",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": true,
+   "fm": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "cond hide action shown",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "fm",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "hide",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fm": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.0,
+   "once": 0.0,
+   "total": 25.0
+  }
+ },
+ {
+  "name": "cond select is",
+  "fields": [
+   {
+    "id": "fs",
+    "type": "select",
+    "key": "size",
+    "label": "FS",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fs",
+       "op": "is",
+       "value": "ol"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fs": "ol",
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 10.5,
+   "once": 0.0,
+   "total": 30.5
+  }
+ },
+ {
+  "name": "cond select is not met",
+  "fields": [
+   {
+    "id": "fs",
+    "type": "select",
+    "key": "size",
+    "label": "FS",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fs",
+       "op": "is",
+       "value": "ol"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fs": "om",
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "cond any match",
+  "fields": [
+   {
+    "id": "fs",
+    "type": "select",
+    "key": "size",
+    "label": "FS",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "any",
+     "rules": [
+      {
+       "field": "fs",
+       "op": "is",
+       "value": "ol"
+      },
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fs": "os",
+   "fg": true,
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 6.0,
+   "once": 0.0,
+   "total": 26.0
+  }
+ },
+ {
+  "name": "cond all match fails",
+  "fields": [
+   {
+    "id": "fs",
+    "type": "select",
+    "key": "size",
+    "label": "FS",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fs",
+       "op": "is",
+       "value": "ol"
+      },
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fs": "os",
+   "fg": true,
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "cond number gt",
+  "fields": [
+   {
+    "id": "fq",
+    "type": "number",
+    "key": "qty_pick",
+    "label": "FQ",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 9,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fq",
+       "op": "gt",
+       "value": "10"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fq": 11,
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 9.0,
+   "once": 0.0,
+   "total": 29.0
+  }
+ },
+ {
+  "name": "cond number gt boundary",
+  "fields": [
+   {
+    "id": "fq",
+    "type": "number",
+    "key": "qty_pick",
+    "label": "FQ",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 9,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fq",
+       "op": "gt",
+       "value": "10"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fq": 10,
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "cond text contains",
+  "fields": [
+   {
+    "id": "ft",
+    "type": "text",
+    "key": "note",
+    "label": "FT",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 3,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "ft",
+       "op": "contains",
+       "value": "GOLD"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "ft": "make it gold please",
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "cond empty",
+  "fields": [
+   {
+    "id": "ft",
+    "type": "text",
+    "key": "note",
+    "label": "FT",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 3,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "ft",
+       "op": "empty",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "ft": "",
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "cond chain hidden parent",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fm",
+    "type": "text",
+    "key": "message",
+    "label": "FM",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fz",
+    "type": "checkbox",
+    "key": "fz",
+    "label": "FZ",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fm",
+       "op": "not_empty",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fm": "still here",
+   "fz": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "cond multi contains",
+  "fields": [
+   {
+    "id": "fx",
+    "type": "checkboxes",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "oa",
+      "label": "A",
+      "value": "a",
+      "price": 1,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ob",
+      "label": "B",
+      "value": "b",
+      "price": 1,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fy",
+    "type": "checkbox",
+    "key": "fy",
+    "label": "FY",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fx",
+       "op": "contains",
+       "value": "ob"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fx": [
+    "oa",
+    "ob"
+   ],
+   "fy": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 7.0,
+   "once": 0.0,
+   "total": 27.0
+  }
+ },
+ {
+  "name": "cond missing target hides",
+  "fields": [
+   {
+    "id": "fy",
+    "type": "checkbox",
+    "key": "fy",
+    "label": "FY",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "f_gone",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fy": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "cond loop settles",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fb",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fb",
+    "type": "checkbox",
+    "key": "fb",
+    "label": "FB",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fa",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true,
+   "fb": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 3.0,
+   "once": 0.0,
+   "total": 23.0
+  }
+ },
+ {
+  "name": "cond numeric text is",
+  "fields": [
+   {
+    "id": "ft",
+    "type": "text",
+    "key": "code",
+    "label": "FT",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fx",
+    "type": "checkbox",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "ft",
+       "op": "is",
+       "value": "7.0"
+      }
+     ]
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "ft": "7",
+   "fx": true
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 2.0,
+   "once": 0.0,
+   "total": 22.0
+  }
+ },
+ {
+  "name": "section hidden hides children",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "sa",
+    "type": "section",
+    "key": "sa",
+    "label": "SA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fx",
+    "type": "text",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 8,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fx": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "section shown",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "sa",
+    "type": "section",
+    "key": "sa",
+    "label": "SA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fx",
+    "type": "text",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 8,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": true,
+   "fx": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 10.0,
+   "once": 0.0,
+   "total": 30.0
+  }
+ },
+ {
+  "name": "step hidden hides section and field",
+  "fields": [
+   {
+    "id": "s1",
+    "type": "step",
+    "key": "s1",
+    "label": "S1",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "s2",
+    "type": "step",
+    "key": "s2",
+    "label": "S2",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "sa",
+    "type": "section",
+    "key": "sa",
+    "label": "SA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fx",
+    "type": "text",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 8,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fx": "x"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "new step resets section",
+  "fields": [
+   {
+    "id": "fg",
+    "type": "checkbox",
+    "key": "gift",
+    "label": "FG",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 2,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "sa",
+    "type": "section",
+    "key": "sa",
+    "label": "SA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": true,
+     "action": "show",
+     "match": "all",
+     "rules": [
+      {
+       "field": "fg",
+       "op": "checked",
+       "value": ""
+      }
+     ]
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fx",
+    "type": "text",
+    "key": "fx",
+    "label": "FX",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 8,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "s2",
+    "type": "step",
+    "key": "s2",
+    "label": "S2",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "fy",
+    "type": "text",
+    "key": "fy",
+    "label": "FY",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 1,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fg": false,
+   "fx": "x",
+   "fy": "y"
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 1.0,
+   "once": 0.0,
+   "total": 21.0
+  }
+ },
+ {
+  "name": "repeater rows",
+  "fields": [
+   {
+    "id": "fr",
+    "type": "repeater",
+    "key": "fr",
+    "label": "FR",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "subfields": [
+     {
+      "id": "rn",
+      "type": "text",
+      "key": "name",
+      "label": "RN",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "per_char",
+      "price": 0.5,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {}
+     },
+     {
+      "id": "rs",
+      "type": "select",
+      "key": "size",
+      "label": "RS",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "none",
+      "price": 0,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {},
+      "options": [
+       {
+        "id": "ro1",
+        "label": "S",
+        "value": "s",
+        "price": 0,
+        "price_type": "flat",
+        "image": "",
+        "color": "",
+        "default": false
+       },
+       {
+        "id": "ro2",
+        "label": "XL",
+        "value": "xl",
+        "price": 3,
+        "price_type": "flat",
+        "image": "",
+        "color": "",
+        "default": false
+       }
+      ],
+      "max_select": 0
+     }
+    ],
+    "min_rows": 0,
+    "max_rows": 10,
+    "button_label": ""
+   }
+  ],
+  "values": {
+   "fr": [
+    {
+     "rn": "Ann",
+     "rs": "ro1"
+    },
+    {
+     "rn": "Bo",
+     "rs": "ro2"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 5.5,
+   "once": 0.0,
+   "total": 25.5
+  }
+ },
+ {
+  "name": "repeater flat per row",
+  "fields": [
+   {
+    "id": "fr",
+    "type": "repeater",
+    "key": "fr",
+    "label": "FR",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "subfields": [
+     {
+      "id": "rn",
+      "type": "text",
+      "key": "name",
+      "label": "RN",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "per_char",
+      "price": 0.5,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {}
+     }
+    ],
+    "min_rows": 0,
+    "max_rows": 10,
+    "button_label": ""
+   }
+  ],
+  "values": {
+   "fr": [
+    {
+     "rn": "A"
+    },
+    {
+     "rn": ""
+    },
+    {
+     "rn": "CC"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 13.5,
+   "once": 0.0,
+   "total": 33.5
+  }
+ },
+ {
+  "name": "repeater empty",
+  "fields": [
+   {
+    "id": "fr",
+    "type": "repeater",
+    "key": "fr",
+    "label": "FR",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 4,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "subfields": [
+     {
+      "id": "rn",
+      "type": "text",
+      "key": "name",
+      "label": "RN",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "per_char",
+      "price": 0.5,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {}
+     }
+    ],
+    "min_rows": 0,
+    "max_rows": 10,
+    "button_label": ""
+   }
+  ],
+  "values": {
+   "fr": []
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 20.0
+  }
+ },
+ {
+  "name": "repeater qty 2 once",
+  "fields": [
+   {
+    "id": "fr",
+    "type": "repeater",
+    "key": "fr",
+    "label": "FR",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "subfields": [
+     {
+      "id": "rn",
+      "type": "text",
+      "key": "name",
+      "label": "RN",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "per_char",
+      "price": 0.5,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {}
+     }
+    ],
+    "min_rows": 0,
+    "max_rows": 10,
+    "button_label": ""
+   }
+  ],
+  "values": {
+   "fr": [
+    {
+     "rn": "Abcd"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 2,
+  "expect": {
+   "unit": 0.0,
+   "once": 2.0,
+   "total": 42.0
+  }
+ },
+ {
+  "name": "repeater formula rows",
+  "fields": [
+   {
+    "id": "fr",
+    "type": "repeater",
+    "key": "fr",
+    "label": "FR",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "formula",
+    "price": 0,
+    "formula": "{count} * 1.1",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "subfields": [
+     {
+      "id": "rn",
+      "type": "text",
+      "key": "name",
+      "label": "RN",
+      "help": "",
+      "tooltip": "",
+      "placeholder": "",
+      "required": false,
+      "default": "",
+      "width": "full",
+      "class": "",
+      "price_type": "per_char",
+      "price": 0.5,
+      "formula": "",
+      "tiers": [],
+      "charge": "item",
+      "free_chars": 0,
+      "count_space": false,
+      "conditions": {
+       "enabled": false,
+       "action": "show",
+       "match": "all",
+       "rules": []
+      },
+      "i18n": {}
+     }
+    ],
+    "min_rows": 0,
+    "max_rows": 10,
+    "button_label": ""
+   }
+  ],
+  "values": {
+   "fr": [
+    {
+     "rn": "A"
+    },
+    {
+     "rn": "B"
+    },
+    {
+     "rn": "C"
+    }
+   ]
+  },
+  "base": 20.0,
+  "qty": 1,
+  "expect": {
+   "unit": 4.8,
+   "once": 0.0,
+   "total": 24.8
+  }
+ },
+ {
+  "name": "combined product",
+  "fields": [
+   {
+    "id": "fe",
+    "type": "text",
+    "key": "fe",
+    "label": "FE",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "per_char",
+    "price": 0.75,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 3,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fw",
+    "type": "checkbox",
+    "key": "fw",
+    "label": "FW",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 3.5,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   },
+   {
+    "id": "fz",
+    "type": "select",
+    "key": "fz",
+    "label": "FZ",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "options": [
+     {
+      "id": "os",
+      "label": "Small",
+      "value": "small",
+      "price": 0,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "om",
+      "label": "Medium",
+      "value": "medium",
+      "price": 3,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     },
+     {
+      "id": "ol",
+      "label": "Large",
+      "value": "large",
+      "price": 6.5,
+      "price_type": "flat",
+      "image": "",
+      "color": "",
+      "default": false
+     }
+    ],
+    "max_select": 0
+   },
+   {
+    "id": "fs",
+    "type": "text",
+    "key": "fs",
+    "label": "FS",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 10,
+    "formula": "",
+    "tiers": [],
+    "charge": "once",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fe": "Max Power",
+   "fw": true,
+   "fz": "om",
+   "fs": "logo"
+  },
+  "base": 24.99,
+  "qty": 3,
+  "expect": {
+   "unit": 10.25,
+   "once": 10.0,
+   "total": 115.72
+  }
+ },
+ {
+  "name": "rounding half cent",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 0.005,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 1,
+  "qty": 1,
+  "expect": {
+   "unit": 0.005,
+   "once": 0.0,
+   "total": 1.01
+  }
+ },
+ {
+  "name": "rounding thirds",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "text",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": 33.3333,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": "x"
+  },
+  "base": 9.99,
+  "qty": 3,
+  "expect": {
+   "unit": 3.329997,
+   "once": 0.0,
+   "total": 39.96
+  }
+ },
+ {
+  "name": "large quantity",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "flat",
+    "price": 0.07,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 1.13,
+  "qty": 999,
+  "expect": {
+   "unit": 0.07,
+   "once": 0.0,
+   "total": 1198.8
+  }
+ },
+ {
+  "name": "zero base percent",
+  "fields": [
+   {
+    "id": "fa",
+    "type": "checkbox",
+    "key": "fa",
+    "label": "FA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "percent",
+    "price": 50,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {}
+   }
+  ],
+  "values": {
+   "fa": true
+  },
+  "base": 0,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "name": "no fields",
+  "fields": [],
+  "values": {},
+  "base": 12.34,
+  "qty": 2,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 24.68
+  }
+ },
+ {
+  "name": "layout only",
+  "fields": [
+   {
+    "id": "pa",
+    "type": "paragraph",
+    "key": "pa",
+    "label": "PA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   },
+   {
+    "id": "sa",
+    "type": "section",
+    "key": "sa",
+    "label": "SA",
+    "help": "",
+    "tooltip": "",
+    "placeholder": "",
+    "required": false,
+    "default": "",
+    "width": "full",
+    "class": "",
+    "price_type": "none",
+    "price": 0,
+    "formula": "",
+    "tiers": [],
+    "charge": "item",
+    "free_chars": 0,
+    "count_space": false,
+    "conditions": {
+     "enabled": false,
+     "action": "show",
+     "match": "all",
+     "rules": []
+    },
+    "i18n": {},
+    "description": "",
+    "collapsible": false
+   }
+  ],
+  "values": {},
+  "base": 5,
+  "qty": 1,
+  "expect": {
+   "unit": 0.0,
+   "once": 0.0,
+   "total": 5.0
+  }
+ }
+]

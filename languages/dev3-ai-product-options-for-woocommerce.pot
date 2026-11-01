@@ -1,0 +1,1691 @@
+# Copyright (C) 2026 DEV3 Technologies
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: DEV3 AI Product Options & Add-Ons for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dev3-ai-product-options-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-24T23:24:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: dev3-ai-product-options-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: dev3-ai-product-options-for-woocommerce.php
+msgid "DEV3 AI Product Options & Add-Ons for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: dev3-ai-product-options-for-woocommerce.php
+msgid "https://dev3.tech/item/dev3-ai-product-options-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin
+#: dev3-ai-product-options-for-woocommerce.php
+msgid "AI-assisted product options, add-ons, conditional logic and price formulas for WooCommerce."
+msgstr ""
+
+#. Author of the plugin
+#: dev3-ai-product-options-for-woocommerce.php
+msgid "DEV3 Technologies"
+msgstr ""
+
+#. Author URI of the plugin
+#: dev3-ai-product-options-for-woocommerce.php
+msgid "https://dev3.tech"
+msgstr ""
+
+#: includes/Admin/Admin_Page.php:44
+#: includes/Core3/Rest/Base_Controller.php:75
+#: includes/Core3/Rest/Core_Controller.php:115
+#: includes/Rest/Rest_Controller.php:88
+#: includes/Rest/Rest_Controller.php:106
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/Admin/Admin_Page.php:49
+msgid "File not found."
+msgstr ""
+
+#: includes/Admin/Admin_Page.php:65
+msgid "DEV3 AI Product Options"
+msgstr ""
+
+#: includes/Admin/Admin_Page.php:94
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:38
+msgid "DEV3 AI Options"
+msgstr ""
+
+#: includes/Admin/Product_Panel.php:55
+msgid "Loading options…"
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:39
+msgid "This DEV3 AI feature is turned off."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:39
+msgid "Turn it on in Settings › DEV3 AI features."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:95
+msgid "Add a product title or description first."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:119
+msgid "DEV3 AI did not return usable options."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:119
+msgid "Add more detail to the description or instructions, then regenerate."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:259
+msgid "Describe the pricing rule first."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:259
+msgid "For example: \"add 2 per letter over 10 letters\"."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:303
+msgid "DEV3 AI could not produce a valid formula for that rule."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:303
+msgid "Rephrase the rule, or write the formula yourself."
+msgstr ""
+
+#. translators: %d: number of characters
+#: includes/Ai/Ai_Features.php:359
+#, php-format
+msgid "%d character"
+msgid_plural "%d characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: value
+#: includes/Ai/Ai_Features.php:361
+#, php-format
+msgid "value %s"
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:386
+msgid "Choose a language to translate into."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:413
+msgid "Add some fields first."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:458
+msgid "DEV3 AI did not return usable text."
+msgstr ""
+
+#: includes/Ai/Ai_Features.php:458
+#: includes/Core3/Api/Api_Error.php:99
+#: includes/Core3/Api/Gemini_Client.php:250
+#: includes/Core3/Api/Gemini_Client.php:422
+msgid "Try again in a moment."
+msgstr ""
+
+#: includes/Cart/Cart_Handler.php:136
+msgid "Please choose the product options first."
+msgstr ""
+
+#: includes/Cart/Cart_Handler.php:378
+msgid "one-time"
+msgstr ""
+
+#: includes/Cart/Cart_Handler.php:425
+msgid "Edit options"
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:212
+msgid "Unsupported image type."
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:216
+msgid "The image data is invalid."
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:292
+msgid "AI features are turned off."
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:292
+msgid "Turn AI back on in API Config."
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:294
+msgid "Storefront AI is turned off."
+msgstr ""
+
+#: includes/Core3/Api/Ai.php:294
+msgid "Turn storefront AI back on in API Config."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:49
+msgid "No Gemini API key is configured."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:50
+msgid "Open the plugin settings → API Config and paste a key from Google AI Studio."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:63
+msgid "AI paused: the monthly AI budget is reached."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:64
+msgid "Raise the monthly cap in API Config, or wait until the budget resets on the 1st of next month."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:80
+msgid "The AI service took too long to respond."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:81
+msgid "Try again, shorten the prompt, lower Max Output Tokens, or switch to the faster model."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:89
+msgid "Your server could not reach the AI service (Google Gemini API)."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:90
+msgid "Check the server's internet connection or firewall (outbound HTTPS to generativelanguage.googleapis.com)."
+msgstr ""
+
+#. translators: %s: transport error message.
+#: includes/Core3/Api/Api_Error.php:98
+#, php-format
+msgid "Request to the AI service failed: %s"
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:128
+msgid "The Gemini API key is not valid."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:129
+msgid "Create a new key in Google AI Studio and paste it in API Config."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:137
+msgid "Your Gemini quota is exhausted."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:137
+msgid "AI rate limit reached."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:139
+msgid "Wait for the quota to reset, enable billing on your Google Cloud project, or switch to a model with remaining quota."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:140
+msgid "Wait a few seconds and try again."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:148
+msgid "This API key is not allowed to use Gemini."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:149
+msgid "Enable the Generative Language API for the key's project, and check any key restrictions (HTTP referrer / IP)."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:156
+msgid "The selected Gemini model is not available."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:157
+msgid "Pick another model in API Config — click \"Refresh models\" to load the ones your key can use."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:164
+msgid "The AI service is not available in your server's region."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:165
+msgid "Host the site in a supported region or use a key from a supported project."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:172
+msgid "The AI service is temporarily unavailable."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:173
+msgid "This is on Google's side. Try again shortly or switch models."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:180
+msgid "The AI service rejected the request."
+msgstr ""
+
+#: includes/Core3/Api/Api_Error.php:181
+msgid "Adjust the prompt or settings and try again."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:250
+msgid "The AI returned an incomplete embedding batch."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:368
+msgid "The AI blocked this image request for safety reasons."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:368
+msgid "The AI did not return an image."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:369
+#: includes/Core3/Api/Gemini_Client.php:472
+#: includes/Core3/Api/Gemini_Client.php:508
+msgid "Rephrase the prompt and try again."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:369
+msgid "Try again, or describe the image more concretely."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:421
+msgid "The AI returned malformed data."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:471
+msgid "The AI blocked this request for safety reasons."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:507
+msgid "The AI stopped because the response was flagged."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:515
+msgid "The AI ran out of output tokens before writing an answer."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:516
+msgid "Increase Max Output Tokens in API Config, or set Reasoning to \"Low\"."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:523
+msgid "The AI returned an empty response."
+msgstr ""
+
+#: includes/Core3/Api/Gemini_Client.php:524
+msgid "Try again or rephrase the prompt."
+msgstr ""
+
+#: includes/Core3/Api/Prompts.php:124
+msgid "Unknown prompt template."
+msgstr ""
+
+#: includes/Core3/Core/Jobs.php:90
+msgid "Unknown job type."
+msgstr ""
+
+#: includes/Core3/Core/Jobs.php:116
+msgid "The job could not be saved."
+msgstr ""
+
+#: includes/Core3/Core/Jobs.php:238
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Failed"
+msgstr ""
+
+#: includes/Core3/Core/Jobs.php:339
+#: includes/Core3/Rest/Core_Controller.php:112
+msgid "Job not found."
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:33
+#: includes/Core3/Core/Privacy.php:34
+#: includes/Core3/Core/Privacy.php:165
+msgid "AI usage log"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/Core3/Core/Privacy.php:85
+#, php-format
+msgid "This site uses %s, which sends the content needed for AI features (for example product details, reviews or form text) to Google Gemini, operated by Google LLC, as a data processor. Only the fields needed for the requested feature are sent. Google's terms and privacy policy apply: https://ai.google.dev/gemini-api/terms"
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:87
+msgid "The plugin keeps a usage log (time, feature, token counts and the user account that triggered the request) to show AI usage and costs to administrators. It does not store the prompts."
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:169
+msgid "Feature"
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:173
+#: build/admin.js:1
+msgid "Model"
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:177
+#: build/admin.js:1
+msgid "Tokens"
+msgstr ""
+
+#: includes/Core3/Core/Privacy.php:181
+#: includes/Fields/Field_Types.php:141
+msgid "Date"
+msgstr ""
+
+#: includes/Core3/Data/Usage_Repository.php:194
+msgid "Deleted user"
+msgstr ""
+
+#: includes/Core3/Rest/Base_Controller.php:72
+msgid "Your session has expired. Reload the editor and try again."
+msgstr ""
+
+#: includes/Core3/Rest/Base_Controller.php:94
+msgid "Cross-origin requests are not allowed."
+msgstr ""
+
+#: includes/Core3/Rest/Base_Controller.php:104
+msgid "Too many requests. Please wait a moment."
+msgstr ""
+
+#: includes/Data/Sets_Repository.php:41
+msgid "Option sets"
+msgstr ""
+
+#: includes/Data/Sets_Repository.php:42
+msgid "Option set"
+msgstr ""
+
+#: includes/Data/Sets_Repository.php:156
+msgid "Untitled option set"
+msgstr ""
+
+#: includes/Data/Sets_Repository.php:160
+#: includes/Rest/Rest_Controller.php:331
+#: includes/Rest/Rest_Controller.php:365
+#: includes/Rest/Rest_Controller.php:377
+msgid "Option set not found."
+msgstr ""
+
+#: includes/Engine/Formula.php:144
+msgid "The formula is empty."
+msgstr ""
+
+#: includes/Engine/Formula.php:146
+msgid "The formula is too long (500 characters max)."
+msgstr ""
+
+#. translators: %s: character
+#: includes/Engine/Formula.php:149
+#, php-format
+msgid "Unexpected character \"%s\"."
+msgstr ""
+
+#. translators: %s: function name
+#: includes/Engine/Formula.php:152
+#, php-format
+msgid "Unknown function \"%s\"."
+msgstr ""
+
+#. translators: %s: function name
+#: includes/Engine/Formula.php:155
+#, php-format
+msgid "Wrong number of arguments for \"%s\"."
+msgstr ""
+
+#: includes/Engine/Formula.php:157
+msgid "Variables are written in braces, e.g. {len}."
+msgstr ""
+
+#: includes/Engine/Formula.php:159
+msgid "The formula ends too early."
+msgstr ""
+
+#. translators: %s: token
+#: includes/Engine/Formula.php:162
+#, php-format
+msgid "Unexpected \"%s\"."
+msgstr ""
+
+#: includes/Engine/Logic_Checker.php:39
+msgid "This set has no input fields yet."
+msgstr ""
+
+#: includes/Engine/Logic_Checker.php:79
+msgid "A field has no label, so shoppers will not know what it is for."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:84
+#, php-format
+msgid "\"%s\" has no choices."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:89
+#, php-format
+msgid "\"%s\" allows one choice but has several defaults."
+msgstr ""
+
+#. translators: 1: option label, 2: field label
+#: includes/Engine/Logic_Checker.php:95
+#, php-format
+msgid "Choice \"%1$s\" in \"%2$s\" has no image."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:102
+#, php-format
+msgid "\"%s\" is required but no choice can be selected."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:107
+#, php-format
+msgid "\"%s\": the minimum is larger than the maximum, so no value is possible."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:111
+#, php-format
+msgid "\"%s\": the minimum length is larger than the maximum length."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:115
+#, php-format
+msgid "\"%s\": the earliest date is after the latest date."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:119
+#, php-format
+msgid "\"%s\": every weekday is disabled."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:123
+#, php-format
+msgid "Repeater \"%s\" has no sub-fields."
+msgstr ""
+
+#. translators: 1: field label, 2: error
+#: includes/Engine/Logic_Checker.php:153
+#, php-format
+msgid "\"%1$s\": formula error. %2$s"
+msgstr ""
+
+#. translators: 1: field label, 2: variable
+#: includes/Engine/Logic_Checker.php:159
+#, php-format
+msgid "\"%1$s\": the formula uses {%2$s}, but no field has that key."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:163
+#, php-format
+msgid "\"%s\": use {value} or {len} to refer to the field itself."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:168
+#, php-format
+msgid "\"%s\": the formula divides by zero (the result will be 0)."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:174
+#, php-format
+msgid "\"%s\": the free characters cover the whole maximum length, so this price never applies."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:178
+#, php-format
+msgid "\"%s\" uses quantity tiers but has none."
+msgstr ""
+
+#. translators: 1: field label, 2: quantity
+#: includes/Engine/Logic_Checker.php:185
+#, php-format
+msgid "\"%1$s\": two tiers start at quantity %2$d with different prices."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:192
+#, php-format
+msgid "\"%s\" adds more than 100%% of the product price. Is that intended?"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:196
+#, php-format
+msgid "\"%s\" has a price type but a price of 0."
+msgstr ""
+
+#. translators: 1: option, 2: field
+#: includes/Engine/Logic_Checker.php:203
+#, php-format
+msgid "Choice \"%1$s\" in \"%2$s\" takes 100%% or more off, so the product becomes free."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:208
+#, php-format
+msgid "\"%s\" has a negative price (a discount). The unit price never goes below 0."
+msgstr ""
+
+#. translators: 1: option, 2: field
+#: includes/Engine/Logic_Checker.php:215
+#, php-format
+msgid "Choice \"%1$s\" appears twice in \"%2$s\" with different prices."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:240
+#, php-format
+msgid "\"%s\" has a rule that points at a field that no longer exists."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:245
+#, php-format
+msgid "\"%s\" depends on itself."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:250
+#, php-format
+msgid "\"%s\" has a rule on a layout element, which has no value."
+msgstr ""
+
+#. translators: 1: field label, 2: target label, 3: value
+#: includes/Engine/Logic_Checker.php:259
+#, php-format
+msgid "\"%1$s\" waits for \"%2$s\" to be \"%3$s\", which is not one of its choices."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:265
+#, php-format
+msgid "\"%s\" compares with a value that is not a number."
+msgstr ""
+
+#. translators: 1: field label, 2: target label
+#: includes/Engine/Logic_Checker.php:271
+#, php-format
+msgid "\"%1$s\" can never match: \"%2$s\" cannot reach that value."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:277
+#, php-format
+msgid "\"%s\" uses \"is checked\" on a field that is not a checkbox; it behaves like \"is not empty\"."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:282
+#, php-format
+msgid "\"%s\" depends on a hidden value, so the rule is always true."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:282
+#, php-format
+msgid "\"%s\" depends on a hidden value, so the rule is never true."
+msgstr ""
+
+#. translators: 1: field label, 2: target label
+#: includes/Engine/Logic_Checker.php:318
+#, php-format
+msgid "\"%1$s\" can never be shown: its rules on \"%2$s\" contradict each other."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Logic_Checker.php:325
+#, php-format
+msgid "\"%s\" is only required while it is shown."
+msgstr ""
+
+#. translators: %s: chain of field labels
+#: includes/Engine/Logic_Checker.php:364
+#, php-format
+msgid "Circular conditions: %s. These fields wait for each other, so they may never show."
+msgstr ""
+
+#. translators: %s: step label
+#: includes/Engine/Logic_Checker.php:418
+#, php-format
+msgid "Step \"%s\" has no fields."
+msgstr ""
+
+#: includes/Engine/Logic_Checker.php:422
+msgid "When you use steps, start the set with a step so every field belongs to one."
+msgstr ""
+
+#: includes/Engine/Values.php:309
+msgid "This option"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:312
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#. translators: 1: field label, 2: number
+#: includes/Engine/Values.php:319
+#, php-format
+msgid "%1$s can be at most %2$d characters."
+msgstr ""
+
+#. translators: 1: field label, 2: number
+#: includes/Engine/Values.php:323
+#, php-format
+msgid "%1$s needs at least %2$d characters."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:327
+#, php-format
+msgid "%s must be a valid email address."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:331
+#, php-format
+msgid "%s must be a valid URL."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:335
+#, php-format
+msgid "%s must be a valid phone number."
+msgstr ""
+
+#. translators: 1: field label, 2: number
+#: includes/Engine/Values.php:341
+#, php-format
+msgid "%1$s must be at least %2$s."
+msgstr ""
+
+#. translators: 1: field label, 2: number
+#: includes/Engine/Values.php:345
+#, php-format
+msgid "%1$s must be at most %2$s."
+msgstr ""
+
+#. translators: 1: field label, 2: number
+#: includes/Engine/Values.php:351
+#, php-format
+msgid "%1$s must be in steps of %2$s."
+msgstr ""
+
+#. translators: 1: number, 2: field label
+#: includes/Engine/Values.php:357
+#, php-format
+msgid "Choose at most %1$d for %2$s."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:364
+#, php-format
+msgid "%s is too early."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:368
+#, php-format
+msgid "%s is too late."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/Engine/Values.php:372
+#, php-format
+msgid "%s is not available on that day."
+msgstr ""
+
+#. translators: 1: number, 2: field label
+#: includes/Engine/Values.php:377
+#, php-format
+msgid "Upload at most %1$d files for %2$s."
+msgstr ""
+
+#. translators: 1: number, 2: field label
+#: includes/Engine/Values.php:382
+#, php-format
+msgid "Add at least %1$d entries for %2$s."
+msgstr ""
+
+#: includes/Engine/Values.php:425
+msgid "Yes"
+msgstr ""
+
+#. translators: 1: row number, 2: values
+#: includes/Engine/Values.php:448
+#, php-format
+msgid "#%1$d %2$s"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:126
+msgid "Text"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:127
+msgid "Textarea"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:128
+msgid "Email"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:129
+msgid "URL"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:130
+msgid "Phone"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:131
+msgid "Number"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:132
+msgid "Range slider"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:133
+msgid "Dropdown"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:134
+msgid "Radio buttons"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:135
+msgid "Checkbox group"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:136
+msgid "Colour swatches"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:137
+msgid "Image swatches"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:138
+msgid "Image picker"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:139
+msgid "Single checkbox"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:140
+msgid "Toggle switch"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:142
+#: build/admin.js:1
+msgid "Time"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:143
+msgid "Date & time"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:144
+msgid "File upload"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:145
+msgid "Colour picker"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:146
+msgid "Hidden value"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:147
+msgid "Repeater"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:148
+#: build/admin.js:1
+msgid "Section"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:149
+msgid "Step"
+msgstr ""
+
+#: includes/Fields/Field_Types.php:150
+msgid "Paragraph"
+msgstr ""
+
+#: includes/Frontend/Product_Form.php:172
+#: includes/Settings.php:34
+msgid "Select options"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:77
+msgid "Back"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:77
+msgid "Next"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:81
+#: includes/Settings.php:35
+msgid "Options total"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:82
+msgid "One-time fees"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:83
+#: includes/Settings.php:36
+msgid "Total"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:289
+msgid "Choose an option"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:321
+msgid "Choose a file or drop it here"
+msgstr ""
+
+#. translators: 1: extensions, 2: size in MB
+#: includes/Frontend/Renderer.php:324
+#, php-format
+msgid "%1$s · up to %2$s MB"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:331
+msgid "Remove file"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:416
+msgid "Add another"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:432
+msgid "Remove entry"
+msgstr ""
+
+#: includes/Frontend/Renderer.php:450
+msgid "More information"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend/Renderer.php:466
+#: includes/Frontend/Renderer.php:481
+#, php-format
+msgid "%s each"
+msgstr ""
+
+#. translators: 1: price, 2: number of free characters
+#: includes/Frontend/Renderer.php:475
+#, php-format
+msgid "%1$s per character after %2$d"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend/Renderer.php:477
+#, php-format
+msgid "%s per character"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend/Renderer.php:486
+#, php-format
+msgid "%s one-time"
+msgstr ""
+
+#: includes/Integrations/Builders.php:89
+#: includes/Integrations/Builders.php:132
+#: includes/Integrations/Elementor_Widget.php:32
+msgid "Product options & add to cart"
+msgstr ""
+
+#: includes/Integrations/Builders.php:136
+msgid "Option fields with live price and the add-to-cart button."
+msgstr ""
+
+#: includes/Integrations/Builders.php:140
+#: includes/Integrations/Elementor_Widget.php:70
+msgid "Product ID"
+msgstr ""
+
+#: includes/Integrations/Builders.php:142
+msgid "Leave empty on product templates to use the current product."
+msgstr ""
+
+#: includes/Integrations/Elementor_Widget.php:66
+msgid "Product"
+msgstr ""
+
+#: includes/Integrations/Elementor_Widget.php:73
+msgid "0 uses the current product (single product templates)."
+msgstr ""
+
+#: includes/Plugin.php:137
+#: includes/Plugin.php:143
+#: includes/Plugin.php:164
+msgid "Product option uploads"
+msgstr ""
+
+#: includes/Plugin.php:147
+msgid "File"
+msgstr ""
+
+#: includes/Plugin.php:151
+msgid "Order"
+msgstr ""
+
+#: includes/Plugin.php:211
+msgid "DEV3 AI Product Options & Add-Ons for WooCommerce needs WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/Rest/Rest_Controller.php:86
+msgid "Your session has expired. Reload the page and try again."
+msgstr ""
+
+#: includes/Rest/Rest_Controller.php:104
+msgid "Product not found."
+msgstr ""
+
+#: includes/Rest/Rest_Controller.php:255
+msgid "All products"
+msgstr ""
+
+#. translators: %d: number of tags
+#: includes/Rest/Rest_Controller.php:264
+#, php-format
+msgid "%d tag"
+msgid_plural "%d tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of products
+#: includes/Rest/Rest_Controller.php:268
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Rest/Rest_Controller.php:270
+msgid "Not assigned"
+msgstr ""
+
+#: includes/Rest/Rest_Controller.php:311
+msgid "Fix the logic errors before publishing, or publish anyway."
+msgstr ""
+
+#. translators: %s: set title
+#: includes/Rest/Rest_Controller.php:381
+#, php-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/Rest/Rest_Controller.php:395
+msgid "That file is not an option set export."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:94
+msgid "This upload is not available."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:99
+msgid "The file could not be uploaded. Please try again."
+msgstr ""
+
+#. translators: %s: size in MB
+#: includes/Rest/Upload_Controller.php:104
+#, php-format
+msgid "The file is too large. The limit is %s MB."
+msgstr ""
+
+#. translators: %s: extensions
+#: includes/Rest/Upload_Controller.php:111
+#, php-format
+msgid "This file type is not allowed. Use: %s."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:115
+msgid "The file content does not match its type."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:122
+msgid "The image could not be read."
+msgstr ""
+
+#. translators: 1: min width, 2: min height, 3: width, 4: height
+#: includes/Rest/Upload_Controller.php:131
+#, php-format
+msgid "The image is too small: it needs at least %1$d×%2$d px, this one is %3$d×%4$d px."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:147
+msgid "The file could not be saved. Please try again."
+msgstr ""
+
+#: includes/Rest/Upload_Controller.php:174
+msgid "This image does not fit this product. Please choose another one."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Request cancelled."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "You appear to be offline."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Check your internet connection, then try again."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Could not reach your WordPress site."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Check your connection or reload the editor."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Your session has expired."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Save your work and reload the page."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Something went wrong."
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Loading"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Generating…"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Generate with DEV3 AI"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Dismiss"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "AI paused: monthly budget reached"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Adjust the cap"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Try again"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Use a hex colour like #4f46e5."
+msgstr ""
+
+#: build/admin.js:1
+msgid "picker"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Estimated AI spend this month"
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI paused"
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI off"
+msgstr ""
+
+#. translators: %s: cap
+#: build/admin.js:1
+#, js-format
+msgid "of %s cap"
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI turned off"
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI paused · cap reached"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Near cap"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Monthly AI budget used"
+msgstr ""
+
+#. translators: 1: requests, 2: tokens
+#: build/admin.js:1
+#, js-format
+msgid "%1$s requests · %2$s tokens"
+msgstr ""
+
+#. translators: %s: date
+#: build/admin.js:1
+#, js-format
+msgid "resets %s"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Set a monthly cap"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Queued"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Running"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Done"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Cancelled"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Dismiss notification"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Choose from list"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Custom model ID…"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Google Gemini API key"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Create a free key in Google AI Studio, paste it here and click “Validate & save”. The key is encrypted in your database and never sent to the browser."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Get an API key"
+msgstr ""
+
+#: build/admin.js:1
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: build/admin.js:1
+msgid "The key is defined by the DEV3PO_GEMINI_API_KEY constant in wp-config.php."
+msgstr ""
+
+#: build/admin.js:1
+msgid "API key"
+msgstr ""
+
+#. translators: %d: number of models
+#: build/admin.js:1
+#, js-format
+msgid "Connected — %d models available to this key."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Validate & save"
+msgstr ""
+
+#: build/admin.js:1
+msgid "API key removed."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Remove key"
+msgstr ""
+
+#: build/admin.js:1
+msgid "OpenSSL is not available on this server, so the key is only obfuscated. Consider defining DEV3PO_GEMINI_API_KEY in wp-config.php instead."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Models & generation"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Fast is used for most tasks; Pro for complex, long-form or structured work."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Refresh models"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Engine settings saved."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Save engine settings"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Fast model"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Recommended: gemini-2.5-flash"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Pro model"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Recommended: gemini-2.5-pro"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Image model"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Used for image generation. Default: gemini-2.5-flash-image"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Embedding model"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Used for semantic search. Default: gemini-embedding-001"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Temperature"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Lower = focused and consistent, higher = more creative (0–1)."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Max output tokens"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Upper limit per answer."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Reasoning"
+msgstr ""
+
+#: build/admin.js:1
+msgid "“Low” keeps generations fast and cheap; “Auto” lets the model think longer."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Low (fast)"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Auto (model decides)"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Budget & safety"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Costs are estimated from token counts and Google’s list prices. Check exact billing in Google AI Studio."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Budget and safety settings saved."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Save budget & safety"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Monthly AI budget cap"
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI pauses when the estimated spend this month reaches the cap. 0 = no cap."
+msgstr ""
+
+#: build/admin.js:1
+msgid "AI features"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Turn off to stop every AI call. The plugin keeps working without AI."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Storefront AI"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Kill switch for visitor-facing AI. Visitors get the non-AI fallback."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Cache AI results"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Reuse answers for identical requests to save tokens."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Mask personal data"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Replace emails, phone and card numbers before text is sent to Google Gemini."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Pagination"
+msgstr ""
+
+#. translators: 1: first row, 2: last row, 3: total rows
+#: build/admin.js:1
+#, js-format
+msgid "%1$s–%2$s of %3$s"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Previous page"
+msgstr ""
+
+#. translators: 1: page, 2: pages
+#: build/admin.js:1
+#, js-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Next page"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Actions"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Nothing here yet"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Sort by"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Default"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Requests"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Est. cost"
+msgstr ""
+
+#: build/admin.js:1
+msgid "No requests yet"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Token counts come from the AI provider’s usage metadata; costs are estimates. Check exact billing in Google AI Studio / Cloud Console."
+msgstr ""
+
+#: build/admin.js:1
+msgid "Period"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Last 7 days"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Last 30 days"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Last 90 days"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Total tokens"
+msgstr ""
+
+#. translators: 1: input, 2: output
+#: build/admin.js:1
+#, js-format
+msgid "%1$s in · %2$s out"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Avg. response"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Errors"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Requests per day"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Requests per day chart"
+msgstr ""
+
+#. translators: 1: date, 2: requests, 3: tokens
+#: build/admin.js:1
+#, js-format
+msgid "%1$s — %2$s requests, %3$s tokens"
+msgstr ""
+
+#: build/admin.js:1
+msgid "No requests in this period yet"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Usage appears here as soon as an AI feature runs."
+msgstr ""
+
+#: build/admin.js:1
+msgid "By task"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Task"
+msgstr ""
+
+#: build/admin.js:1
+msgid "By model"
+msgstr ""
+
+#: build/admin.js:1
+msgid "By user"
+msgstr ""
+
+#: build/admin.js:1
+msgid "User"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Recent requests"
+msgstr ""
+
+#: build/admin.js:1
+msgid "No requests logged yet"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Where"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Time (s)"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Status"
+msgstr ""
+
+#: build/admin.js:1
+msgid "Plugin sections"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Close"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "DEV3 AI draft"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Accept"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Changes"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Side by side"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Draft"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Not saved yet"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Draft view"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Edit JSON"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Edit draft"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Current"
+msgstr ""
+
+#. translators: %s: token count
+#: build/admin.js:1
+#: build/product.js:1
+#, js-format
+msgid "%s tokens"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Cached"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Reject"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Regenerate"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Done editing"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "Edit"
+msgstr ""
+
+#: build/admin.js:1
+#: build/product.js:1
+msgid "The JSON is not valid. Fix it or regenerate."
+msgstr ""

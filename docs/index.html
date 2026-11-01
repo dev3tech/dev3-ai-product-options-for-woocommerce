@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEV3 AI Product Options &amp; Add-Ons for WooCommerce · Documentation</title>
+<style>
+:root{--b:#4f46e5;--t:#1f2328;--m:#4b5563;--l:#e3e6eb;--s:#f8f9fb}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--t);background:#fff}
+header{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;padding:40px 20px}header h1{margin:0 0 6px;font-size:28px}header p{margin:0;opacity:.9}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--l);z-index:2}nav .wrap{display:flex;gap:16px;overflow-x:auto;padding-top:10px;padding-bottom:10px}nav a{white-space:nowrap;color:var(--b);text-decoration:none;font-weight:600;font-size:14px}
+main{padding:24px 0 60px}h2{margin-top:48px;padding-top:8px;border-top:1px solid var(--l)}h3{margin-top:28px}code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--s);border:1px solid var(--l);border-radius:6px}code{padding:1px 5px;font-size:14px}pre{padding:12px;overflow:auto;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:12px 0}th,td{text-align:left;border-bottom:1px solid var(--l);padding:8px;vertical-align:top}th{background:var(--s)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}.shots img{width:100%;border:1px solid var(--l);border-radius:8px}.note{background:#eef2ff;border:1px solid #c7d2fe;border-radius:8px;padding:12px 16px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>DEV3 AI Product Options &amp; Add-Ons for WooCommerce</h1><p>Version 1.0.0 · by DEV3 Technologies · AI by Google Gemini with your own API key</p></div></header>
+<nav><div class="wrap"><a href="#install">Install</a><a href="#key">Gemini key</a><a href="#sets">Option sets</a><a href="#fields">Fields</a><a href="#logic">Logic</a><a href="#pricing">Pricing</a><a href="#cart">Cart &amp; orders</a><a href="#uploads">Uploads</a><a href="#ai">DEV3 AI</a><a href="#builders">Blocks &amp; builders</a><a href="#i18n">Translations</a><a href="#hooks">Hooks &amp; REST</a><a href="#faq">FAQ</a><a href="#changelog">Changelog</a></div></nav>
+<main class="wrap">
+<div class="shots"><img src="screenshots/2-option-set-builder.png" alt="Option set builder"><img src="screenshots/4-storefront-product.png" alt="Product page with options"><img src="screenshots/3-field-pricing-formula.png" alt="Formula pricing"></div>
+
+<h2 id="install">1. Installation</h2>
+<ol><li>Requirements: WordPress 6.0+, PHP 7.4+ (tested on 8.3), WooCommerce 8.0+.</li><li>Plugins › Add New › Upload Plugin › choose <code>dev3-ai-product-options-for-woocommerce.zip</code> › Install › Activate.</li><li>Open <strong>DEV3 AI Product Options</strong> in the admin menu. Shop managers and administrators can use it.</li></ol>
+<p>The plugin declares compatibility with WooCommerce HPOS (custom order tables) and the Cart/Checkout blocks.</p>
+
+<h2 id="key">2. Google Gemini API key (optional)</h2>
+<ol><li>Create a key at <a href="https://aistudio.google.com/apikey">Google AI Studio</a>.</li><li>Paste it in <strong>API Config</strong> and press <em>Validate</em>. It is stored encrypted and never sent to the browser. You can also define <code>DEV3PO_GEMINI_API_KEY</code> in <code>wp-config.php</code>.</li><li>Pick models (defaults <code>gemini-2.5-flash</code> / <code>gemini-2.5-pro</code>), set a monthly budget cap, and switch storefront AI (upload vision) on or off.</li></ol>
+<p class="note">Without a key every option, condition, price, upload and cart feature works. Only the "with DEV3 AI" buttons need a key. Each AI feature can be switched off in Settings.</p>
+
+<h2 id="sets">3. Option sets and product options</h2>
+<p><strong>Option sets</strong> are global groups of fields. Assign a set to <em>all products</em> or to categories (sub-categories included), tags and individual products, and exclude products. Lower priority numbers appear first. Only <em>published</em> sets apply. Publishing is blocked while the logic checker reports errors (you may "publish anyway").</p>
+<p><strong>Product options</strong>: open a product › <em>DEV3 AI Options</em> tab (saved with the product), or <em>Products</em> in the plugin. Modes: <em>product fields + matching sets</em>, <em>only product fields</em>, or <em>no options</em>. Per product you can switch off a matching set and override fixed prices of set fields and choices.</p>
+<p>Sets can be exported/imported as JSON (Option sets › Export / Import).</p>
+
+<h2 id="fields">4. Field types</h2>
+<table><tr><th>Group</th><th>Types</th><th>Settings</th></tr>
+<tr><td>Text</td><td>Text, Textarea, Email, URL, Phone</td><td>placeholder, min/max length, default</td></tr>
+<tr><td>Numbers</td><td>Number, Range slider</td><td>min, max, step, unit</td></tr>
+<tr><td>Choices</td><td>Dropdown, Radio, Checkbox group, Colour swatches, Image swatches, Image picker, Single checkbox, Toggle</td><td>choices with label, value, price (flat or %), colour, image, default; max selections</td></tr>
+<tr><td>Date &amp; time</td><td>Date, Time, Date &amp; time</td><td>earliest/latest (days from today), unavailable weekdays</td></tr>
+<tr><td>Files &amp; colour</td><td>File upload, Colour picker</td><td>types, max files, max MB, min width/height, DEV3 AI vision check + rule</td></tr>
+<tr><td>Advanced</td><td>Hidden value</td><td>fixed value; useful for setup fees and formulas</td></tr>
+<tr><td>Layout</td><td>Section, Step, Paragraph, Repeater</td><td>collapsible sections; steps make a wizard; repeater min/max entries and sub-fields</td></tr></table>
+<p>Every field has a label, key (used in formulas), help text, tooltip, required flag and half/full width.</p>
+
+<h2 id="logic">5. Conditional logic and the logic checker</h2>
+<p>Show or hide a field (or a whole section/step) when <em>all</em> or <em>any</em> rules match. Operators: is, is not, contains, does not contain, is empty, is not empty, greater/less than, at least/at most, is checked/not checked. A field that points at a hidden field sees an empty value. Hidden fields are never required and never priced.</p>
+<p>The <strong>logic checker</strong> runs as you edit and reports: impossible rules (e.g. Size is S <em>and</em> M, Width &gt; 50 and &lt; 20, a value outside min/max, a choice that does not exist), circular dependencies (also through steps/sections), rules on deleted fields, formula syntax errors and unknown variables, division by zero, conflicting quantity tiers, duplicate choices with different prices, discounts of 100% or more, empty steps, choice fields without choices, min &gt; max.</p>
+
+<h2 id="pricing">6. Pricing</h2>
+<table><tr><th>Price type</th><th>Result</th></tr>
+<tr><td>Flat</td><td>fixed amount when the field is filled (per row for repeaters)</td></tr>
+<tr><td>Percent</td><td>% of the product (or variation) price</td></tr>
+<tr><td>Per character</td><td>price × characters after the free characters (spaces optional)</td></tr>
+<tr><td>Per unit</td><td>price × the number entered (or number of files)</td></tr>
+<tr><td>Quantity tiers</td><td>price per item from the tier matching the cart quantity</td></tr>
+<tr><td>Formula</td><td>any formula, see below</td></tr></table>
+<p><strong>Charge</strong>: <em>per item</em> (added to the unit price) or <em>once per cart line</em> (added as a fee). The unit price never goes below 0.</p>
+<h3>Formulas</h3>
+<p>Operators <code>+ - * / % ^ ( )</code>, comparisons <code>== != &gt; &lt; &gt;= &lt;=</code> (1 or 0), <code>&amp;&amp; || !</code>, functions <code>min max round(x,d) ceil floor abs sqrt pow if(c,a,b) clamp(x,lo,hi)</code>. Variables: <code>{price}</code>, <code>{qty}</code>, <code>{value}</code>, <code>{len}</code>, <code>{words}</code>, <code>{lines}</code>, <code>{count}</code>, and any field by key: <code>{width}</code>, <code>{name.len}</code>, <code>{extras.count}</code>. No <code>eval</code> is used; the same engine runs in PHP and JavaScript and both pass 127 shared fixture cases.</p>
+<pre>max(0, {len} - 10) * 2              2 per letter over 10
+{width} * {height} / 10000 * 18     18 per m²
+if({qty} >= 10, 1, 2)               cheaper for 10+</pre>
+
+<h2 id="cart">7. Cart, checkout and orders</h2>
+<ul><li>Options and their prices appear in the cart, checkout (classic and blocks), order, emails and the order admin; uploaded files are links for shop staff.</li><li>Shoppers edit options from the cart (product link / "Edit options"); the cart line is replaced.</li><li>Different options create separate cart lines; "Order again" restores options.</li><li>Shop/category buttons link to the product when a required option must be chosen (configurable).</li></ul>
+
+<h2 id="uploads">8. Uploads</h2>
+<p>Files go to <code>wp-content/uploads/dev3po-uploads/</code> with random names; Apache access is denied and staff download through a nonce-protected admin link. Allowed types are whitelisted (never SVG/HTML/PHP); content is checked against the extension. Minimum resolution is always checked. Tokens are bound to the visitor session. Files never ordered are deleted after the retention period. The <em>Uploads</em> screen lists every file with its check result.</p>
+
+<h2 id="ai">9. DEV3 AI features</h2>
+<ul><li><strong>Generate options</strong> (option set editor and product): drafts the full set as structured JSON, validated against a schema, normalised, and checked by the logic checker. Review the summary or edit the JSON, then add or replace fields.</li><li><strong>Review with DEV3 AI</strong> (logic checker): extra findings with suggestions, marked "DEV3 AI".</li><li><strong>Formula helper</strong> (field › Pricing › Formula): plain language to a validated formula, with worked examples. Invalid answers are retried once with feedback.</li><li><strong>Labels &amp; translations</strong>: improve labels/help/tooltips in a tone, or translate them into a locale; translations are stored per field.</li><li><strong>Upload vision check</strong>: enable it on a file field and describe what the image must show. It runs through the rate-limited storefront proxy with caching; when AI is unavailable the upload is accepted as "not checked". Choose warn or block in Settings.</li></ul>
+<p>All AI usage is logged with tokens and estimated cost (Usage Logs) and respects the monthly cap.</p>
+
+<h2 id="builders">10. Blocks, shortcode, Elementor and WPBakery</h2>
+<p>Options render automatically on product pages (classic and block themes). To place options + add to cart elsewhere use the block <em>Product options &amp; add to cart</em>, the shortcode <code>[dev3po_product_options id="123"]</code> (omit the id on product templates), the Elementor widget of the same name, or the WPBakery element.</p>
+<p>Styling: the form inherits your theme's fonts and colours. Override CSS variables on <code>.dev3po-form</code>: <code>--dev3po-accent</code>, <code>--dev3po-accent-strong</code>, <code>--dev3po-line</code>, <code>--dev3po-tint</code>, <code>--dev3po-r</code>, or set an accent colour in Settings.</p>
+
+<h2 id="i18n">11. Translations</h2>
+<p>The plugin is translation-ready (<code>languages/dev3-ai-product-options-for-woocommerce.pot</code>) and ships RTL styles. Field texts can be translated per locale in the field's Translations tab or with DEV3 AI. The locale comes from Polylang, WPML or WordPress (filter <code>dev3po_locale</code>).</p>
+
+<h2 id="hooks">12. Developer hooks and REST API</h2>
+<table><tr><th>Hook</th><th>Description</th></tr>
+<tr><td><code>dev3po_product_fields</code> (filter)</td><td>fields shown for a product</td></tr>
+<tr><td><code>dev3po_set_saved</code> (action)</td><td>after an option set is saved</td></tr>
+<tr><td><code>dev3po_locale</code> (filter)</td><td>locale used for field translations</td></tr>
+<tr><td><code>dev3po_upload_extensions</code> (filter)</td><td>allowed upload extensions</td></tr>
+<tr><td><code>dev3po_public_rate_limit</code> (filter)</td><td>per-IP limit for public endpoints</td></tr>
+<tr><td><code>dev3po_prompt_&lt;id&gt;</code> (filter)</td><td>override prompts: generate_options, review_logic, formula, labels, vision_check</td></tr>
+<tr><td><code>dev3po_ai_guard</code> (filter)</td><td>block AI calls</td></tr>
+<tr><td><code>dev3po_manage_capability</code>, <code>dev3po_capability</code></td><td>capabilities (default manage_woocommerce, edit_products)</td></tr></table>
+<p>REST namespace <code>dev3po/v1</code> (cookie + nonce): <code>sets</code>, <code>sets/&lt;id&gt;</code>, <code>sets/&lt;id&gt;/duplicate</code>, <code>sets/import</code>, <code>products</code>, <code>products/&lt;id&gt;</code>, <code>terms</code>, <code>check</code>, <code>preview</code>, <code>price</code>, <code>ai/generate</code>, <code>ai/review</code>, <code>ai/formula</code>, <code>ai/labels</code>, <code>uploads</code>, <code>stats</code>; public <code>upload</code> (same-origin + rate limit). Order item meta <code>_dev3po_data</code> holds the values, fields and prices as an array.</p>
+
+<h2 id="faq">13. FAQ</h2>
+<h3>Variable products?</h3><p>Yes. Options apply to the parent product; percent prices follow the selected variation price.</p>
+<h3>Taxes?</h3><p>Option prices are entered like product prices and are taxed with the product's tax class.</p>
+<h3>Page caching?</h3><p>The product form has no per-visitor data; uploads use a public endpoint that works with cached pages.</p>
+<h3>Uninstall?</h3><p>Data is removed only when "Delete all plugin data when the plugin is uninstalled" is enabled in Settings › Cart &amp; orders.</p>
+
+<h2 id="changelog">14. Changelog</h2>
+<p><strong>1.0.0</strong> – Initial release.</p>
+</main>
+</body>
+</html>
