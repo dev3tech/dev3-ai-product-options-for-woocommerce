@@ -7,7 +7,7 @@ Requires PHP: 7.4
 Requires Plugins: woocommerce
 WC requires at least: 8.0
 WC tested up to: 10.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ Add personalisation, upgrades and extras to any WooCommerce product: engraving t
 * Logic checker: finds impossible conditions, circular dependencies and price conflicts before you publish (works without AI), plus an AI review for subtler problems.
 * Formula helper: "add 2 per letter over 10 letters" becomes `max(0, {len} - 10) * 2`, validated and shown with worked examples.
 * Labels, help texts, tooltips and translations into many languages.
-* Upload vision check: Gemini checks uploaded images for content fit and quality and tells the shopper how to fix it (warn or block).
+* Upload vision check: DEV3 AI checks uploaded images for content fit and quality and tells the shopper how to fix it (warn or block).
 
 Every AI result is a draft you accept, edit or reject. Nothing is saved without your click. The plugin is fully usable with AI turned off or without a key.
 
@@ -70,6 +70,9 @@ In wp-content/uploads/dev3po-uploads/ with random names and direct access denied
 6. Order with all chosen options.
 
 == Changelog ==
+
+= 1.0.1 =
+* Branding: the upload vision check now says "DEV3 AI looks at each uploaded image".
 
 = 1.0.0 =
 * Initial release.

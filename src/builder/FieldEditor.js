@@ -445,7 +445,7 @@ function GeneralEditor( { field, fields, onChange } ) {
 						<NumberField label={ __( 'Min height (px)', D ) } value={ field.min_height } min={ 0 } onChange={ ( v ) => onChange( { min_height: v === '' ? 0 : v } ) } />
 					</FormGrid>
 					<div className="dev3po-b-ai">
-						<Toggle label={ __( 'Check uploaded images with DEV3 AI vision', D ) } checked={ !! field.vision } onChange={ ( v ) => onChange( { vision: v } ) } help={ __( 'Gemini looks at each uploaded image and tells the shopper when it does not fit. Resolution is always checked, also without AI.', D ) } />
+						<Toggle label={ __( 'Check uploaded images with DEV3 AI vision', D ) } checked={ !! field.vision } onChange={ ( v ) => onChange( { vision: v } ) } help={ __( 'DEV3 AI looks at each uploaded image and tells the shopper when it does not fit. Resolution is always checked, also without AI.', D ) } />
 						{ field.vision && <Textarea label={ __( 'What should the image show?', D ) } value={ field.vision_rule } onChange={ ( v ) => onChange( { vision_rule: v } ) } rows={ 2 } maxLength={ 300 } placeholder={ __( 'e.g. A clear photo of one pet facing the camera, no text', D ) } /> }
 					</div>
 				</>

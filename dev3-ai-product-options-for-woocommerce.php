@@ -3,7 +3,7 @@
  * Plugin Name:       DEV3 AI Product Options & Add-Ons for WooCommerce
  * Plugin URI:        https://dev3.tech/item/dev3-ai-product-options-for-woocommerce
  * Description:       AI-assisted product options, add-ons, conditional logic and price formulas for WooCommerce.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Requires Plugins:  woocommerce
@@ -21,7 +21,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'DEV3PO_VERSION', '1.0.0' );
+define( 'DEV3PO_VERSION', '1.0.1' );
 define( 'DEV3PO_FILE', __FILE__ );
 define( 'DEV3PO_PATH', plugin_dir_path( __FILE__ ) );
 define( 'DEV3PO_URL', plugin_dir_url( __FILE__ ) );

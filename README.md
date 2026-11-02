@@ -87,6 +87,9 @@ The full HTML guide (installation, settings, hooks and FAQ) is in [`docs/index.h
 
 ## Changelog
 
+### 1.0.1
+* Branding: the upload vision check now says "DEV3 AI looks at each uploaded image".
+
 ### 1.0.0
 * Initial release.
 
